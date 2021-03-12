@@ -2,7 +2,7 @@
     "name": "gon-dark-theme",
     "displayName": "gon-dark-theme",
     "description": "GarciaGon's favourite vscode dark theme",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "engines": {
         "vscode": "^1.54.0"
     },
