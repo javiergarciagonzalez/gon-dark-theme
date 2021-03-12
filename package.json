@@ -1,0 +1,22 @@
+{
+    "name": "gon-dark-theme",
+    "displayName": "gon-dark-theme",
+    "description": "GarciaGon's favourite vscode dark theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "publisher": "garciagon",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gon Dark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/gon-dark-theme-color-theme.json"
+            }
+        ]
+    }
+}
