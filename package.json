@@ -9,6 +9,8 @@
     "categories": [
         "Themes"
     ],
+    "repository": "https://github.com/javiergarciagonzalez/gon-dark-theme",
+    "icon": "images/ico-128.jpeg",
     "publisher": "garciagon",
     "contributes": {
         "themes": [
