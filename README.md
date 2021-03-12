@@ -16,7 +16,7 @@ Created by [Javier García González](https://github.com/javiergarciagonzalez) <
 ![Go](https://raw.githubusercontent.com/javiergarciagonzalez/gon-dark-theme/master/images/screenshots/go.png)
 
 ### HTML
-![HTML](https://raw.githubusercontent.com/javiergarciagonzalez/gon-dark-theme/master/images/screenshots/welcome.png)
+![HTML](https://raw.githubusercontent.com/javiergarciagonzalez/gon-dark-theme/master/images/screenshots/html.png)
 
 ## Credits
 Based on ["vscode-one-monokai"](https://github.com/azemoh/vscode-one-monokai/).
