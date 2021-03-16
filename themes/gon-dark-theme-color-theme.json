@@ -75,22 +75,17 @@
         "titleBar.inactiveBackground": "#282C34",
         "titleBar.inactiveForeground": "#6B717D"
     },
-    "tokenColors": [{
+    "tokenColors": [
+        {
             "name": "Comment",
-            "scope": [
-                "comment",
-                "string.comment"
-            ],
+            "scope": ["comment", "string.comment"],
             "settings": {
                 "foreground": "#aeaeae"
             }
         },
         {
             "name": "String",
-            "scope": [
-                "string",
-                "string.template"
-            ],
+            "scope": ["string", "string.template"],
             "settings": {
                 "foreground": "#ffffcbd2"
             }
@@ -139,10 +134,7 @@
         },
         {
             "name": "User-defined constant",
-            "scope": [
-                "constant.character",
-                "constant.other"
-            ],
+            "scope": ["constant.character", "constant.other"],
             "settings": {
                 "foreground": "#56b6c2"
             }
@@ -210,15 +202,7 @@
             "name": "Variable Object",
             "scope": [
                 "variable",
-                "entity.name.function.js",
                 "variable.other.constant.js",
-                "meta.definition.variable.js",
-                "meta.var-single-variable.expr.js",
-                "meta.var.expr.js",
-                "meta.block.js",
-                "meta.arrow.js",
-                "source.js",
-                "variable.other.object",
                 "variable.other.constant",
                 "variable.other.global",
                 "variable.other.readwrite.class",
@@ -229,6 +213,13 @@
             ],
             "settings": {
                 "foreground": "#d3ecff"
+            }
+        },
+        {
+            "name": "Function/method names in js",
+            "scope": ["entity.name.function.js"],
+            "settings": {
+                "foreground": "#6fc1ff"
             }
         },
         {
@@ -251,20 +242,14 @@
         },
         {
             "name": "Package Import",
-            "scope": [
-                "storage.modifier.import",
-                "storage.modifier.package"
-            ],
+            "scope": ["storage.modifier.import", "storage.modifier.package"],
             "settings": {
                 "foreground": "#61afef"
             }
         },
         {
             "name": "Function name",
-            "scope": [
-                "entity.name.function",
-                "support.function"
-            ],
+            "scope": ["entity.name.function", "support.function"],
             "settings": {
                 "foreground": "#9dc4f4"
             }
@@ -297,30 +282,21 @@
         },
         {
             "name": "Builtin Functions",
-            "scope": [
-                "function.support.builtin",
-                "function.support.core"
-            ],
+            "scope": ["function.support.builtin", "function.support.core"],
             "settings": {
                 "foreground": "#98c379"
             }
         },
         {
             "name": "Tag Name",
-            "scope": [
-                "entity.name.tag",
-                "entity.name.tag.class.js"
-            ],
+            "scope": ["entity.name.tag", "entity.name.tag.class.js"],
             "settings": {
                 "foreground": "#e06c75"
             }
         },
         {
             "name": "Tag Class and ID",
-            "scope": [
-                "entity.name.tag.class",
-                "entity.name.tag.id"
-            ],
+            "scope": ["entity.name.tag.class", "entity.name.tag.id"],
             "settings": {
                 "foreground": "#56b6c2"
             }
@@ -341,10 +317,7 @@
         },
         {
             "name": "Library class/type",
-            "scope": [
-                "support.type",
-                "support.variable"
-            ],
+            "scope": ["support.type", "support.variable"],
             "settings": {
                 "foreground": "#56b6c2"
             }
@@ -422,12 +395,7 @@
         },
         {
             "name": "StyleSheet Unit",
-            "scope": [
-                "unit.css",
-                "unit.scss",
-                "unit.less",
-                "unit.sass"
-            ],
+            "scope": ["unit.css", "unit.scss", "unit.less", "unit.sass"],
             "settings": {
                 "foreground": "#c678dd"
             }
@@ -481,10 +449,7 @@
         },
         {
             "name": "diff.header",
-            "scope": [
-                "meta.diff",
-                "meta.diff.header"
-            ],
+            "scope": ["meta.diff", "meta.diff.header"],
             "settings": {
                 "foreground": "#75715E"
             }
