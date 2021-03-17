@@ -78,9 +78,14 @@
     "tokenColors": [
         {
             "name": "Comment",
-            "scope": ["comment", "string.comment"],
+            "scope": [
+                "comment",
+                "string.comment",
+                "punctuation.definition.comment"
+            ],
             "settings": {
-                "foreground": "#aeaeae"
+                "foreground": "#ffb6c19f",
+                "fontStyle": "italic"
             }
         },
         {
@@ -271,13 +276,6 @@
             "scope": "entity.name.function-call",
             "settings": {
                 "foreground": "#abb2bf"
-            }
-        },
-        {
-            "name": "Comments punctuation definition",
-            "scope": "punctuation.definition.comment",
-            "settings": {
-                "foreground": "#77bcdc"
             }
         },
         {
